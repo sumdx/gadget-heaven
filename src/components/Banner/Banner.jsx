@@ -3,8 +3,8 @@ import BannerImg from "./../../assets/banner.jpg";
 
 const Banner = () => {
   return (
-    <div>
-      <div className="pl-4 ml-1.5 mr-1.5 pr-2 border-b-2 border-l-2 border-r-2 bg-customPurple text-center rounded-br-xl rounded-bl-xl">
+    <div className="ml-5 mr-5 pr-2 pl-2 border-b-1 border-l-1 border-r-1">
+      <div className=" bg-customPurple text-center rounded-br-xl rounded-bl-xl">
         <h1 className="text-6xl text-white font-bold w-3/4 mx-auto pt-12">
           Upgrade Your Tech Accessorize with Gadget Heaven Accessories
         </h1>

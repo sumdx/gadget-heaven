@@ -27,7 +27,7 @@ const Dashboard = () => {
   return (
     <div>
       <Helmet>
-        <title>Home|Gadget Heaven</title>
+        <title>Dashboard|Gadget Heaven</title>
       </Helmet>
       <div className="bg-customPurple text-center h-52 flex flex-col justify-center">
         <div>

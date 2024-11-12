@@ -19,13 +19,13 @@ const NavBar = () => {
         <NavLink to={"/"}>
           <h1>Home</h1>
         </NavLink>
-        <NavLink to={"/statistics"}>
+        <NavLink to={"statistics"}>
           <h1>Statistics</h1>
         </NavLink>
-        <NavLink to={"/dashboard"}>
+        <NavLink to={"dashboard"}>
           <h1>Dashboard</h1>
         </NavLink>
-        <NavLink to={"/purchaseHistory"}>
+        <NavLink to={"purchaseHistory"}>
           <h1>History</h1>
         </NavLink>
       </div>

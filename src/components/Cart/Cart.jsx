@@ -12,9 +12,7 @@ const Cart = ({ newProduct}) => {
 
 
   const cartItemDlt = (product_id) => {
-    toast.success("Item removed from the Cart", {
-        position: "top-left",
-    });
+    
 
     deleteFromCart(product_id, "cart");
     cartUpdate(getStoredCartList("cart"));

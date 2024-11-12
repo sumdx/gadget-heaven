@@ -27,13 +27,17 @@ const Root = () => {
 
   return (
     <CartContext.Provider value={{cart,cartUpdate,wishList,wishListUpdate}}>
-    <div className="bg-gray-50">
-      <div className=" border-t pt-2 pl-2 pr-2  rounded-tr-xl">
+    <div className="bg-gray-50 min-h-screen">
+      <div className=" border-t ml-7 mr-7 rounded-tr-xl">
         <NavBar></NavBar>
       </div>
-
+      <main className="flex-grow">
       <Outlet></Outlet>
+      </main>
+      <footer className="scroll bottom-0">
       <Footer></Footer>
+      </footer>
+      
     </div>
     </CartContext.Provider>
   );

@@ -7,6 +7,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Link } from "react-router-dom";
 import { MdDoneAll } from "react-icons/md";
+import PaymentImg from "./../../assets/Group.png"
 
 const Carts = () => {
   const [totalCost, updateCost] = useState(0);
@@ -59,14 +60,17 @@ const Carts = () => {
       
       <dialog id="my_modal_1" className="modal">
         <div className="modal-box flex flex-col text-center items-center">
-        <MdDoneAll className="text-green-500 text-8xl text-center "/>
+        <img src={PaymentImg} alt="" className="mb-4" />
+        {/* <MdDoneAll className="text-green-500 text-8xl text-center "/> */}
         <h3 className="font-bold text-2xl">Payment Successful</h3>
         <p>Thanks for Purchasing</p>
         <p>Total : {totalCost}</p>          
           <div className="modal-action">
             <form method="dialog">
               {/* if there is a button in form, it will close the modal */}
-              <button onClick={clearCartImp} className="btn rounded-2xl px-10 bg-green-500 text-white" ><Link to={'/'}>Close</Link></button>
+              <Link to={'/'}>
+              <button onClick={clearCartImp} className="btn rounded-2xl px-10 bg-green-500 text-white" >Close</button>
+              </Link>
             </form>
           </div>
         </div>

@@ -28,7 +28,7 @@ const Home = () => {
   return (
     <div>
       <Helmet>
-        <title>Dashboard|Gadget Heaven</title>
+        <title>Home|Gadget Heaven</title>
       </Helmet>
       <Banner></Banner>
       <ProductsContext.Provider value={dataShow}>
