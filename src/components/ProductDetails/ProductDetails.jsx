@@ -9,10 +9,11 @@ import { getStoredCartList, setStoredCartList } from "../../Utility/addToDb";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { CartContext } from "../Root/Root";
+import { Helmet } from "react-helmet-async";
 
 const ProductDetails = () => {
   const { id } = useParams();
-  const {cart, cartUpdate} = useContext(CartContext);
+  const {cart, cartUpdate, wishList,wishListUpdate} = useContext(CartContext);
   const products = useLoaderData();
   const product = products.find(
     (product) => parseInt(product.product_id) === parseInt(id)
@@ -55,13 +56,19 @@ const ProductDetails = () => {
   const addToWishListHandler = () =>{
     
     setStoredCartList(product_id,"wishlist")
-    
+    wishListUpdate(getStoredCartList("wishlist"))
+    toast.success("Item added to Wishlist", {
+      position: "top-left",
+    });
 
   }
 
   return (
     <div>
-      <div className="bg-customPurple text-center">
+      <Helmet>
+        <title>Product|Gadget Heaven</title>
+      </Helmet>
+      <div className="bg-customPurple text-center pb-60">
         <h1 className="text-4xl font-bold pt-10 text-white">Product Details</h1>
         <p className="w-1/2 mx-auto text-gray-200 mt-4">
           Explore the latest gadgets that will take your experience to the next
@@ -69,7 +76,7 @@ const ProductDetails = () => {
         </p>
       </div>
 
-      <div className="mt-7 container rounded-xl mx-auto flex bg-white p-10 border border-red-400">
+      <div className="mt-7 container rounded-xl mx-auto flex bg-white p-10 border border-customPurple border-dashed -mt-48 mb-20">
         <div className="w-1/3 mr-7">
           <img src={product_image} alt="" />
         </div>
@@ -104,7 +111,7 @@ const ProductDetails = () => {
                 <p className="font-bold text-lg text-white">Add To Cart</p>
                 <HiOutlineShoppingCart className="ml-2 text-xl" />
             </button>
-            <button onClick={()=> addToWishListHandler()} className="bg-gray-200 p-2 rounded-full">
+            <button onClick={()=> addToWishListHandler()} className="hover:text-red-600 hover:bg-red-200 active:scale-75 active:bg-red-300 bg-gray-200 p-2 rounded-full">
                 <MdFavoriteBorder className="text-xl"/>
             </button>
           </div>

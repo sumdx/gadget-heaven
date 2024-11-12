@@ -4,6 +4,7 @@ import Shop from "../Shop/Shop";
 import { Route, useLoaderData } from "react-router-dom";
 import ShopCategories from "../ShopCategories/ShopCategories";
 import ProductDetails from "../ProductDetails/ProductDetails";
+import { Helmet } from "react-helmet-async";
 
 export const ProductsContext = createContext(1);
 
@@ -26,6 +27,9 @@ const Home = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Dashboard|Gadget Heaven</title>
+      </Helmet>
       <Banner></Banner>
       <ProductsContext.Provider value={dataShow}>
         <div id="shop" className="-mt-32 mb-10">

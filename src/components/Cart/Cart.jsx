@@ -39,7 +39,7 @@ const Cart = ({ newProduct}) => {
         <div>
           <MdDeleteForever
             onClick={() => cartItemDlt(product_id)}
-            className="active:text-red-200 text-2xl text-red-500"
+            className="active:text-red-200 text-4xl text-red-500 active:scale-125 active:rotate-45"
           />
         </div>
       </div>

@@ -5,6 +5,9 @@ import { createContext } from "react";
 import WishList from "../WishList/WishList";
 export const ProductsContext = createContext(1);
 import "./Dashboard.css"
+import ReactDOM from 'react-dom';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+
 
 const Dashboard = () => {
   const [cartSelect, updateCartSelect ] = useState(true);
@@ -19,11 +22,17 @@ const Dashboard = () => {
     
   }
 
+  
+
   return (
     <div>
-      <div className="bg-customPurple text-center pb-8">
-        <h1 className="text-4xl text-center  text-white pt-4">Dashboard</h1>
-        <p className="text-base text-gray-200 mt-4">
+      <Helmet>
+        <title>Home|Gadget Heaven</title>
+      </Helmet>
+      <div className="bg-customPurple text-center h-52 flex flex-col justify-center">
+        <div>
+        <h1 className="text-4xl text-center  text-white">Dashboard</h1>
+        <p className="text-sm font-light text-gray-200 mt-4">
           Explore the latest gadgets that will take your experience to the next
           level. From smart devices to the coolest accessories, we have it all!
         </p>
@@ -34,6 +43,8 @@ const Dashboard = () => {
         <div className="inline-block">
         <button onClick={() => crtBtnHandle("wishlist")} className={cartSelect ? "btn-normal" : "btn-active"}>Wishlist</button>
         </div>
+        </div>
+        
         
        
         
