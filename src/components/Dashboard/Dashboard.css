@@ -1,0 +1,21 @@
+.btn-normal{
+    background-color: transparent;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right : 1rem;
+    border: solid white  1px;
+    border-radius: 0.5rem;
+    color: white;
+
+}
+.btn-active{
+    background-color: white;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right : 1rem;
+    border: solid white  1px;
+    border-radius: 0.5rem;
+    color: black;
+}

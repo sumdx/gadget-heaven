@@ -9,6 +9,8 @@ import {
 } from "react-router-dom";
 import Root from './components/Root/Root';
 import Dashboard from './components/Dashboard/Dashboard.jsx'
+import ProductDetails from './components/ProductDetails/ProductDetails.jsx'
+import Statistics from './components/Statistics/Statistics.jsx'
 
 const router = createBrowserRouter([
   {
@@ -18,11 +20,22 @@ const router = createBrowserRouter([
     children :[
       {
         path :"/",
-        element: <Home></Home>
+        element: <Home></Home>,
+        loader :() => fetch("./../public/products.json"),
       },
       {
         path:"dashboard",
-        element: <Dashboard></Dashboard>
+        element: <Dashboard></Dashboard>,
+        loader :() => fetch("./../public/products.json"),
+      },
+      {
+        path:"statistics",
+        element: <Statistics></Statistics>,
+      },
+      {
+        path:"/products/:id",
+        loader:() => fetch("./../public/products.json"),
+        element: <ProductDetails></ProductDetails>
       }
     ],
   },

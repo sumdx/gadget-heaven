@@ -1,0 +1,351 @@
+[
+    {
+      "product_id": 1,
+      "product_title": "UltraThin Laptop 15\"",
+      "product_image": "https://m.media-amazon.com/images/I/71rcDNcI8zL.jpg",
+      "category": "Laptop",
+      "price": 1199.99,
+      "description": "A powerful and portable laptop with an ultra-thin design, perfect for productivity and entertainment on the go.",
+      "Specification": [
+        "Processor: Intel Core i7",
+        "RAM: 16GB DDR4",
+        "Storage: 512GB SSD",
+        "Display: 15.6\" Full HD",
+        "Battery Life: 12 hours",
+        "Operating System: Windows 11"
+      ],
+      "availability": false,
+      "rating": 3
+    },
+    {
+      "product_id": 2,
+      "product_title": "Smartphone X2",
+      "product_image": "https://i.ibb.co/ZhpTJPD/Mkopa-X2-Atmos-Blue.webp",
+      "category": "Phones",
+      "price": 899.99,
+      "description": "The latest smartphone with an advanced camera, powerful processor, and a sleek design.",
+      "Specification": [
+        "Processor: Snapdragon 888",
+        "RAM: 8GB",
+        "Storage: 128GB",
+        "Display: 6.5\" AMOLED",
+        "Battery Life: 24 hours",
+        "Operating System: Android 12"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 3,
+      "product_title": "Wireless Earbuds Pro",
+      "product_image": "https://i.ibb.co/fQTV8cH/MK2-G3-wid-400-hei-400-fmt-jpeg-qlt-95.jpg",
+      "category": "Accessories",
+      "price": 129.99,
+      "description": "Premium noise-canceling wireless earbuds with a long-lasting battery and superior sound quality.",
+      "Specification": [
+        "Battery Life: Up to 10 hours",
+        "Noise Cancellation: Active",
+        "Water Resistance: IPX7",
+        "Bluetooth: 5.1",
+        "Charging Case: Included"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 4,
+      "product_title": "Smartwatch Series 6",
+      "product_image": "https://i.ibb.co/gV7rL1b/s-l400.jpg",
+      "category": "Smart Watches",
+      "price": 199.99,
+      "description": "Stay connected and track your fitness with the latest smartwatch, equipped with health monitoring features and GPS.",
+      "Specification": [
+        "Display: 1.8\" OLED",
+        "Battery Life: 24 hours",
+        "Water Resistance: 50 meters",
+        "Sensors: Heart Rate, Blood Oxygen",
+        "Connectivity: Bluetooth 5.0, GPS"
+      ],
+      "availability": false,
+      "rating": 4.4
+    },
+    {
+      "product_id": 5,
+      "product_title": "MacBook Air M2",
+      "product_image": "https://i.ibb.co/QfHSJBK/macbookair-og-202402-wid-400-hei-400-fmt-jpeg-qlt-90.jpg",
+      "category": "MacBook",
+      "price": 999.99,
+      "description": "Lightweight and powerful MacBook Air with the M2 chip, ideal for work and personal use.",
+      "Specification": [
+        "Processor: Apple M2",
+        "RAM: 8GB",
+        "Storage: 256GB SSD",
+        "Display: 13.3\" Retina",
+        "Battery Life: 18 hours",
+        "Operating System: macOS Monterey"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 6,
+      "product_title": "iPhone 14 Pro",
+      "product_image": "https://i.ibb.co/DtSdvZ1/51-BSZYdcy2-L.jpg",
+      "category": "iPhone",
+      "price": 1099.99,
+      "description": "The latest iPhone 14 Pro with an advanced camera system, A16 Bionic chip, and ProMotion display.",
+      "Specification": [
+        "Processor: A16 Bionic",
+        "Storage: 128GB, 256GB, 512GB, 1TB",
+        "Display: 6.1\" Super Retina XDR",
+        "Camera: Triple-lens system with 48MP main sensor",
+        "Battery Life: 20 hours",
+        "Operating System: iOS 16"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 7,
+      "product_title": "All-in-One Color Printer",
+      "product_image": "https://i.ibb.co/d4fXVs4/71-Xn2-RLZv6-L.jpg",
+      "category": "Printer",
+      "price": 249.99,
+      "description": "Versatile all-in-one printer with wireless capabilities, perfect for home or office use.",
+      "Specification": [
+        "Print Technology: Inkjet",
+        "Max Print Resolution: 4800 x 1200 dpi",
+        "Connectivity: Wi-Fi, USB, Ethernet",
+        "Functions: Print, Copy, Scan, Fax",
+        "Monthly Duty Cycle: 10,000 pages"
+      ],
+      "availability": true,
+      "rating": 4.3
+    },
+    {
+      "product_id": 8,
+      "product_title": "Gaming Laptop 17\"",
+      "product_image": "https://i.ibb.co/qk8y8qC/71189-Ly-Dj-QL.jpg",
+      "category": "Laptop",
+      "price": 1399.99,
+      "description": "High-performance gaming laptop with a large display and powerful GPU for an immersive gaming experience.",
+      "Specification": [
+        "Processor: AMD Ryzen 7",
+        "RAM: 16GB DDR4",
+        "Storage: 1TB SSD",
+        "Display: 17.3\" Full HD",
+        "GPU: NVIDIA GeForce RTX 3060",
+        "Operating System: Windows 11"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 9,
+      "product_title": "5G Smartphone Max",
+      "product_image": "https://i.ibb.co/0fpfsFd/61h-gy-Ji1g-L.jpg",
+      "category": "Phones",
+      "price": 999.99,
+      "description": "The ultimate 5G smartphone with a large display, top-notch camera, and fast processing power.",
+      "Specification": [
+        "Processor: Snapdragon 888",
+        "RAM: 12GB",
+        "Storage: 256GB",
+        "Display: 6.8\" OLED",
+        "Battery Life: 36 hours",
+        "Operating System: Android 12"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 10,
+      "product_title": "Portable Bluetooth Speaker",
+      "product_image": "https://i.ibb.co/FVpD6Dv/portablebluetoothspeakers-2048px-3333.jpg",
+      "category": "Accessories",
+      "price": 49.99,
+      "description": "Compact and powerful Bluetooth speaker with waterproof design and long-lasting battery.",
+      "Specification": [
+        "Battery Life: Up to 10 hours",
+        "Water Resistance: IPX7",
+        "Bluetooth: 5.0",
+        "Range: 30 feet",
+        "Charging Port: USB-C"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 11,
+      "product_title": "Fitness Smartwatch",
+      "product_image": "https://i.ibb.co/jMcSTbL/729850-ALTMORE10.jpg",
+      "category": "Smart Watches",
+      "price": 149.99,
+      "description": "Track your fitness progress with a smartwatch designed for health monitoring and workout tracking.",
+      "Specification": [
+        "Display: 1.6\" AMOLED",
+        "Battery Life: 7 days",
+        "Water Resistance: 50 meters",
+        "Sensors: Heart Rate, Step Counter, Sleep Monitor",
+        "Connectivity: Bluetooth 5.0, GPS"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 12,
+      "product_title": "MacBook Pro 14\" M1",
+      "product_image": "https://i.ibb.co/bsg3TSg/mbp16-spaceblack-select-202410-wid-904-hei-840-fmt-jpeg-qlt-90.jpg",
+      "category": "MacBook",
+      "price": 1999.99,
+      "description": "A powerful MacBook Pro with the M1 chip for fast performance and long battery life.",
+      "Specification": [
+        "Processor: Apple M1 Pro",
+        "RAM: 16GB",
+        "Storage: 512GB SSD",
+        "Display: 14\" Liquid Retina XDR",
+        "Battery Life: 17 hours",
+        "Operating System: macOS Monterey"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 13,
+      "product_title": "iPhone 13",
+      "product_image": "https://i.ibb.co/ssqPwfX/refurb-iphone-13-pro-graphite-2023-wid-2000-hei-1897-fmt-jpeg-qlt-95.jpg",
+      "category": "iPhone",
+      "price": 799.99,
+      "description": "iPhone 13 with the A15 Bionic chip and an advanced dual-camera system.",
+      "Specification": [
+        "Processor: A15 Bionic",
+        "Storage: 128GB, 256GB",
+        "Display: 6.1\" Super Retina XDR",
+        "Battery Life: 19 hours",
+        "Operating System: iOS 15"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 14,
+      "product_title": "Laser Printer",
+      "product_image": "https://i.ibb.co/Ttyk0sW/homeprinters-2048px-02580-1.jpg",
+      "category": "Printer",
+      "price": 299.99,
+      "description": "Efficient laser printer with high-speed printing and low maintenance cost.",
+      "Specification": [
+        "Print Technology: Laser",
+        "Max Print Resolution: 1200 x 1200 dpi",
+        "Connectivity: Wi-Fi, USB",
+        "Monthly Duty Cycle: 20,000 pages",
+        "Functions: Print"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 15,
+      "product_title": "Tablet Pro 11\"",
+      "product_image": "https://i.ibb.co/b5zT2w1/7928172-product-main.jpg",
+      "category": "Accessories",
+      "price": 699.99,
+      "description": "High-performance tablet with an 11\" screen, ideal for productivity and creative work.",
+      "Specification": [
+        "Processor: Octa-core",
+        "RAM: 6GB",
+        "Storage: 128GB",
+        "Display: 11\" Full HD",
+        "Battery Life: 15 hours",
+        "Operating System: Android"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 16,
+      "product_title": "Convertible Laptop 14\"",
+      "product_image": "https://i.ibb.co/M6g7t2q/71a-Hks-GNAs-L.jpg",
+      "category": "Laptop",
+      "price": 999.99,
+      "description": "2-in-1 convertible laptop with a touch screen and stylus support for versatile use.",
+      "Specification": [
+        "Processor: Intel Core i5",
+        "RAM: 8GB",
+        "Storage: 256GB SSD",
+        "Display: 14\" FHD Touch",
+        "Battery Life: 10 hours",
+        "Operating System: Windows 11"
+      ],
+      "availability": false,
+      "rating": 4.4
+    },
+    {
+      "product_id": 17,
+      "product_title": "Portable Projector",
+      "product_image": "https://i.ibb.co/fqqx7Tw/portableminiprojectors-2048px-0348.jpg",
+      "category": "Accessories",
+      "price": 299.99,
+      "description": "Compact projector for on-the-go presentations and home cinema experiences.",
+      "Specification": [
+        "Resolution: 1080p",
+        "Brightness: 200 ANSI lumens",
+        "Battery Life: 3 hours",
+        "Connectivity: HDMI, USB-C",
+        "Screen Size: Up to 100\""
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 18,
+      "product_title": "Noise Cancelling Headphones",
+      "product_image": "https://i.ibb.co/Jpjy01V/WH1000-XM4-B-1-3000x3000.jpg",
+      "category": "Accessories",
+      "price": 199.99,
+      "description": "Comfortable over-ear headphones with active noise cancellation and immersive sound quality.",
+      "Specification": [
+        "Battery Life: Up to 20 hours",
+        "Noise Cancellation: Active",
+        "Bluetooth: 5.0",
+        "Charging Port: USB-C"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 19,
+      "product_title": "Portable Charger 20,000mAh",
+      "product_image": "https://i.ibb.co/xq5CYVF/suaoki-s670-678-1-678x452.jpg",
+      "category": "Accessories",
+      "price": 39.99,
+      "description": "High-capacity portable charger with fast charging capabilities for multiple devices.",
+      "Specification": [
+        "Capacity: 20,000mAh",
+        "Output: USB-A, USB-C",
+        "Fast Charging: Yes",
+        "Weight: 350g",
+        "Color: Black"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 20,
+      "product_title": "Wireless Mouse",
+      "product_image": "https://i.ibb.co/f8v2dHT/089efd22-da98-4272-a391-81b5be6ba832-175be7c6054fe87029192968b090ea14.jpg",
+      "category": "Accessories",
+      "price": 25.99,
+      "description": "Ergonomic wireless mouse with smooth scrolling and adjustable DPI settings.",
+      "Specification": [
+        "Connection: Bluetooth & 2.4GHz",
+        "Battery Life: Up to 12 months",
+        "DPI Range: 800-1600",
+        "Weight: 80g",
+        "Color: Black"
+      ],
+      "availability": true,
+      "rating": 4.4
+    }
+  ]
+  
