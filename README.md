@@ -1,8 +1,26 @@
-# React + Vite
+# Gadget Heaven
+This is a Gadget marketplace. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live link : https://bpldream1.netlify.app/
+[Project Requirements] (./requiremnets.pdf)
 
-Currently, two official plugins are available:
+## Key features of the project:
+- Add products to cart
+- Add product to wishlist
+- Purchase product from cart list
+- Sort the cart list
+- See the Purchase History
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Some technologies I used in my project:
+- Context Api
+- Prop Drilling
+- Local Storage
+- Dynamic Title using Helmet
+- Dynamic Navbar using useLocation
+- State Management
+- Data Fetching 
+- Writing markup with jsx
+- Displaying data
+- Dynamic card create from the array of objects.
+- Sort, filter
+
