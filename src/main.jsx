@@ -18,26 +18,26 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
-    errorElement : <ErrorPage></ErrorPage>,
+   // errorElement : <ErrorPage></ErrorPage>,
     children :[
       {
         path :"/",
         element: <Home></Home>,
-        loader :() => fetch("./../public/products.json"),
+        loader :() => fetch("/products.json"),
       },
       {
         path:"dashboard",
         element: <Dashboard></Dashboard>,
-        loader :() => fetch("./../public/products.json"),
+        loader :() => fetch("/products.json"),
       },
       {
         path:"statistics",
         element: <Statistics></Statistics>,
-        loader:() => fetch("./../public/products.json"),
+        loader:() => fetch("/products.json"),
       },
       {
         path:"/products/:id",
-        loader:() => fetch("./../public/products.json"),
+        loader:() => fetch("/products.json"),
         element: <ProductDetails></ProductDetails>
       },
       {
@@ -45,7 +45,7 @@ const router = createBrowserRouter([
         element:<PurchaseHistory></PurchaseHistory>
       }
     ],
-  },
+  },  
 ]);
 
 createRoot(document.getElementById('root')).render(

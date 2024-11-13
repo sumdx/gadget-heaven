@@ -1,7 +1,7 @@
 # Gadget Heaven
 This is a Gadget marketplace. 
 
-## Live link : https://bpldream1.netlify.app/
+## Live link : https://gadgeth.netlify.app/
 [Project Requirements] (./requiremnets.pdf)
 
 ## Key features of the project:
@@ -13,6 +13,7 @@ This is a Gadget marketplace.
 
 ## Some technologies I used in my project:
 - Context Api
+- React Router 
 - Prop Drilling
 - Local Storage
 - Dynamic Title using Helmet
