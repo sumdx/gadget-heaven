@@ -54,12 +54,18 @@ const ProductDetails = () => {
     
   }
   const addToWishListHandler = () =>{
-    
-    setStoredCartList(product_id,"wishlist")
+    if(wishList.includes(product_id)){
+      toast.warn("Item already on the Wishlist", {
+        position: "top-left",
+      });
+    }else{
+      setStoredCartList(product_id,"wishlist")
     wishListUpdate(getStoredCartList("wishlist"))
     toast.success("Item added to Wishlist", {
       position: "top-left",
     });
+    }
+    
 
   }
 

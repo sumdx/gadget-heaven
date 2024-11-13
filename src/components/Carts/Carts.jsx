@@ -11,6 +11,7 @@ import PaymentImg from "./../../assets/Group.png"
 
 const Carts = () => {
   const [totalCost, updateCost] = useState(0);
+  const [sorted, setSorted] = useState(false);
 
   // const carts = getStoredCartList("cart");
 
@@ -54,6 +55,20 @@ const Carts = () => {
     updateCost(total);
   }, [cart]);
 
+  const sortByPrice = ()=>{
+    const sortedCart = [...cart].sort((a, b) => {
+      const productA = products.find(
+        (product) => parseInt(product.product_id) === parseInt(a)
+      );
+      const productB = products.find(
+        (product) => parseInt(product.product_id) === parseInt(b)
+      );
+      return (productB?.price || 0) - (productA?.price || 0);
+    });
+
+    cartUpdate(sortedCart);
+  }
+
   return (
     <div>
       {/* Modal */}
@@ -80,7 +95,7 @@ const Carts = () => {
         <h1 className="flex justify-between font-bold">Cart</h1>
         <div className="flex gap-4 items-center">
           <h1 className="font-bold">Total cost: {totalCost.toFixed(2)} </h1>
-          <button className="border border-customPurple px-4 py-2 text-customPurple rounded-3xl">Sort by price</button>
+          <button onClick={()=>sortByPrice()} className="border border-customPurple px-4 py-2 text-customPurple rounded-3xl">Sort by price</button>
           <button onClick={clearCartHandle} className="bg-customPurple px-5 py-2 rounded-3xl text-white active:scale-90 active:bg-purple-300 ">Purchase</button>
         </div>
       </div>
